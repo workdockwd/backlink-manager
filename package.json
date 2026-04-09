@@ -1,0 +1,16 @@
+{
+  "name": "backlink-directory",
+  "version": "1.0.0",
+  "description": "SEO Backlink Directory Platform — Discover, manage, and track backlink submission sites",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "cd client && npm run dev",
+    "server": "cd server && node index.js",
+    "setup": "npm install && cd client && npm install && cd ../server && npm install",
+    "scrape": "cd server && node scraper/run.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

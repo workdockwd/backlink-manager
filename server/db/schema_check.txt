@@ -1,0 +1,7 @@
+backlink_sites: id, url, domain, title, category, da_score, pa_score, spam_score, is_free, status, discovered_at, last_checked, source_url, notes, user_id
+sqlite_sequence: name, seq
+projects: id, name, domain, keywords, description, created_at, updated_at
+submissions: id, project_id, backlink_site_id, status, submitted_at, anchor_text, target_url, notes, is_last_done, created_at
+scrape_sources: id, url, query, last_scraped, sites_found, status
+scrape_log: id, source_url, sites_found, sites_new, status, error, scraped_at
+users: id, email, password_hash, created_at, bio, username

@@ -1,0 +1,5 @@
+8: router.get('/', optionalAuth, (req, res) => {
+97: router.get('/bookmark', requireAuth, (req, res) => {
+112: router.get('/vault', requireAuth, (req, res) => {
+151: router.get('/stats', (req, res) => {
+176: router.get('/:id', (req, res) => {
